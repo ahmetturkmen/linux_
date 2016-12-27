@@ -1,0 +1,25 @@
+To install java to your linux system:
+
+Implement following commands respectivly 
+---
+sudo add-apt-repository ppa:webupd8team/java 
+sudo apt-get update
+sudo apt-get install oracle-java8-installer
+sudo apt-get install oracle-java8-set-default
+---
+Java is installed after this four commands.
+---
+After that lets move on to Android Studio
+---
+sudo add-apt-repository ppa:paolorotolo/android-studio
+sudo apt-get update 
+sudo apt-get install android-studio
+---
+After this three commands setup files is downloaded to "/opt/android-studio/bin"
+To run android studio from that directory 
+---
+cd /opt/android-studio/bin
+sh studio.sh
+---
+After this last command ("sh android.sh").Android studio will begin to run.
+
