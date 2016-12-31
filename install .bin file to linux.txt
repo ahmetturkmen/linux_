@@ -1,0 +1,16 @@
+
+How to Install .bin file (Linux/Ubuntu/CentOS)
+
+.bin files are Linux self extracting binary files.
+
+Steps to Install/extract .bin file
+
+    Open Terminal
+    Set File Permissions to “executable” with chmod command
+
+chmod +x filename.bin
+
+    Start/Run the installation with following command
+
+./filename.bin
+
