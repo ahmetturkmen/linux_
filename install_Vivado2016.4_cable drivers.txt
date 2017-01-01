@@ -1,0 +1,12 @@
+In a root administration terminal
+
+sudo apt-get install gitk git-gui libusb-dev build-essential libc6-dev-i386 fxload
+cd /home/ahmetturkmen/Vivado/2016.4/data/ip/xilinx
+sudo git clone git://git.zerfleddert.de/usb-driver
+cd usb-driver/
+sudo make
+ cd /home/ahmetturkmen/Vivado/2016.4/data/xicom/cable_drivers/lin64/install_script/install_drivers
+ sudo -i
+sh install_drivers
+----
+Successfull.
