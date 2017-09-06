@@ -13,12 +13,12 @@
 
 ### The ps Command Unix parameters
 
-ps -A  >> Shows all processes 
-ps -N  >> Shows the opposite of the specified parameters
-ps -a  >> Shows all processes except session headers and processes without a terminal 
-ps -e  >> Shows all processes 
-ps -M  >> Displays security information about process. 
--------
+	```ps -A```  >> Shows all processes 
+	```ps -N```  >> Shows the opposite of the specified parameters
+	```ps -a```  >> Shows all processes except session headers and processes without a terminal 
+	```ps -e```  >> Shows all processes 
+	```ps -M```  >> Displays security information about process. 
+
 	If you need to see everything runnning on the system, use the ** - ef **parameter combination.
 This example uses two parameters: the -e parameter, which shows all the processes running on the system, and the -f parameter, which expands the output to show a few useful coloumns of information: 
 
@@ -33,7 +33,7 @@ This example uses two parameters: the -e parameter, which shows all the processe
 
 __For even more information, we can use the -l parameter, which procudes the long format output__
 
-$ ps -l 
+```$ ps -l```
 
 in response there will be some coloumns as _F S UID PID PPID C PRI NI ADDR SZ WCHAN TTY TIME CCD_ . 
 
