@@ -24,7 +24,7 @@ OR
 chmod 0755 script.sh
 
 ```
-__ Only allow owner to execute the script enter:  __
+__Only allow owner to execute the script enter:__
 
 ```
 chmod 0700 script.sh
@@ -61,7 +61,7 @@ Remove read and execute permission for the griup and user, enter:
 chmod ug = script.sh
 
 ```
-## More about on chmod  go to
+#### More about on chmod  go to
 
 ``` man chmod  ``` OR ``` info chmod ```
 
